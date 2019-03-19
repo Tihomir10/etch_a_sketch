@@ -1,0 +1,51 @@
+html, body {
+  background-color: slategray;
+  min-height: 100%;
+}
+
+.col {
+  width: 30px;
+  height: 30px;
+}
+
+.loc {
+  width: 14px;
+  height: 14px;
+}
+
+.ocl {
+  width: 6px;
+  height: 6px;
+}
+
+.col, .loc, .ocl {
+  text-align: center;
+  padding: 0;
+  border: 1px solid white;
+  float: right;
+}
+
+#container {
+  margin-top: 100px;
+  margin-left: 32%;
+  width: 512px;
+  height: 512px;
+  overflow: hidden;
+}
+
+
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+li button {
+  background-color: transparent;
+  color: white;
+  border: 1px solid;
+  font-size: 27px;
+  margin: 10px;
+}
+
+
